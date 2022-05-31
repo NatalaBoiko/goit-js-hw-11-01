@@ -1,4 +1,4 @@
-.search-form{
+.search-form {
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -6,27 +6,34 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-.input__wrap{
+.input__wrap {
   display: flex;
   justify-content: center;
+  
   border: solid 2px;
   border-color: #0a14355c;
+  position: relative;
+
 }
 
 .search-form input {
   border-style: none;
+  align-content: center;
+
 }
 
 .search-form button {
+  position: absolute;
+  right: 0;
+  width: 27px;
+  height: 20px;
   border-style: none;
+  background-color: #5f65a045;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 3px;
-  background-color: rgb(255 255 255 / 66%);
-}
 
-// .icon__search{
-//   background-color: #000;
-// }
+}
 
 .icon {
   display: inline-block;
